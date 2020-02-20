@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* RGB */
+$color1: rgba(5, 102, 141, 1);
+$color2: rgba(2, 128, 144, 1);
+$color3: rgba(0, 168, 150, 1);
+$color4: rgba(2, 195, 154, 1);
+$color5: rgba(240, 243, 189, 1);
+
+.container {
+    min-height: 100vh;
+
+    .header,
+    .footer {
+        padding: 10px 20px;
+        background-color: $color1;
+        position: sticky;
+    }
+
+    .header {
+        top: 0;
+    }
+    .footer {
+        bottom: 0;
+    }
+
+    .content {
+        background-color: $color5;
+    }
+}
